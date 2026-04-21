@@ -23,6 +23,9 @@ Features:
 - Share panel with copy-link support
 - macOS-friendly layout for Safari and Chrome
 
+## Clone
+Clone the repo folder and download it to get the files, onece done go to terminal and run locally
+
 ## Run Locally
 
 From the repo folder:
@@ -36,19 +39,7 @@ Then open:
 
 `http://localhost:8000`
 
-## Native C++ Version
 
-The original terminal app is still included in:
-
-- `src/main.cpp`
-
-Build it with:
-
-```bash
-cd cpp-chess-bot
-clang++ -std=c++17 -O2 -Wall -Wextra -pedantic src/main.cpp -o mac_chess_bot
-./mac_chess_bot
-```
 
 ## Notes
 
