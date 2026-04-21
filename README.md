@@ -36,23 +36,6 @@ Then open:
 
 `http://localhost:8000`
 
-## Put It Online And Send It To A Friend
-
-This repo now includes a GitHub Pages workflow in `.github/workflows/deploy-pages.yml`.
-
-### Steps
-
-1. Push the repo to GitHub.
-2. In GitHub, open `Settings > Pages`.
-3. Set the source to `GitHub Actions`.
-4. Push to `main` or rerun the workflow.
-
-Your public URL will be:
-
-`https://YOUR_USERNAME.github.io/cpp-chess-bot/`
-
-Once the site is live, the app's `Copy Link` button will copy the real public URL so you can send it directly.
-
 ## Native C++ Version
 
 The original terminal app is still included in:
