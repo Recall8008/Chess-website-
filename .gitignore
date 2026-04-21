@@ -1,0 +1,7 @@
+build/
+*.o
+*.out
+*.swp
+.DS_Store
+mac_chess_bot
+*.dSYM

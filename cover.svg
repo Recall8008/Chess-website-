@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="Mac Chess Bot cover image">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1017"/>
+      <stop offset="100%" stop-color="#1b2231"/>
+    </linearGradient>
+    <linearGradient id="wood" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#5b4533"/>
+      <stop offset="100%" stop-color="#8a6c4d"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="160" cy="100" r="180" fill="#63d2a1" opacity="0.10"/>
+  <circle cx="1040" cy="540" r="220" fill="#78a7ff" opacity="0.10"/>
+
+  <g transform="translate(70 75)">
+    <rect x="0" y="0" width="430" height="430" rx="34" fill="url(#wood)"/>
+    <g transform="translate(25 25)">
+      <rect x="0" y="0" width="380" height="380" rx="16" fill="#241c16"/>
+      <g>
+        <rect x="0" y="0" width="47.5" height="47.5" fill="#eadfcb"/>
+        <rect x="47.5" y="0" width="47.5" height="47.5" fill="#7d8faa"/>
+        <rect x="95" y="0" width="47.5" height="47.5" fill="#eadfcb"/>
+        <rect x="142.5" y="0" width="47.5" height="47.5" fill="#7d8faa"/>
+        <rect x="190" y="0" width="47.5" height="47.5" fill="#eadfcb"/>
+        <rect x="237.5" y="0" width="47.5" height="47.5" fill="#7d8faa"/>
+        <rect x="285" y="0" width="47.5" height="47.5" fill="#eadfcb"/>
+        <rect x="332.5" y="0" width="47.5" height="47.5" fill="#7d8faa"/>
+
+        <rect x="0" y="47.5" width="47.5" height="47.5" fill="#7d8faa"/>
+        <rect x="47.5" y="47.5" width="47.5" height="47.5" fill="#eadfcb"/>
+        <rect x="95" y="47.5" width="47.5" height="47.5" fill="#7d8faa"/>
+        <rect x="142.5" y="47.5" width="47.5" height="47.5" fill="#eadfcb"/>
+        <rect x="190" y="47.5" width="47.5" height="47.5" fill="#7d8faa"/>
+        <rect x="237.5" y="47.5" width="47.5" height="47.5" fill="#eadfcb"/>
+        <rect x="285" y="47.5" width="47.5" height="47.5" fill="#7d8faa"/>
+        <rect x="332.5" y="47.5" width="47.5" height="47.5" fill="#eadfcb"/>
+
+        <rect x="0" y="95" width="47.5" height="47.5" fill="#eadfcb"/>
+        <rect x="47.5" y="95" width="47.5" height="47.5" fill="#7d8faa"/>
+        <rect x="95" y="95" width="47.5" height="47.5" fill="#eadfcb"/>
+        <rect x="142.5" y="95" width="47.5" height="47.5" fill="#7d8faa"/>
+        <rect x="190" y="95" width="47.5" height="47.5" fill="#eadfcb"/>
+        <rect x="237.5" y="95" width="47.5" height="47.5" fill="#7d8faa"/>
+        <rect x="285" y="95" width="47.5" height="47.5" fill="#eadfcb"/>
+        <rect x="332.5" y="95" width="47.5" height="47.5" fill="#7d8faa"/>
+
+        <rect x="0" y="142.5" width="47.5" height="47.5" fill="#7d8faa"/>
+        <rect x="47.5" y="142.5" width="47.5" height="47.5" fill="#eadfcb"/>
+        <rect x="95" y="142.5" width="47.5" height="47.5" fill="#7d8faa"/>
+        <rect x="142.5" y="142.5" width="47.5" height="47.5" fill="#eadfcb"/>
+        <rect x="190" y="142.5" width="47.5" height="47.5" fill="#7d8faa"/>
+        <rect x="237.5" y="142.5" width="47.5" height="47.5" fill="#eadfcb"/>
+        <rect x="285" y="142.5" width="47.5" height="47.5" fill="#7d8faa"/>
+        <rect x="332.5" y="142.5" width="47.5" height="47.5" fill="#eadfcb"/>
+
+        <rect x="0" y="190" width="47.5" height="47.5" fill="#eadfcb"/>
+        <rect x="47.5" y="190" width="47.5" height="47.5" fill="#7d8faa"/>
+        <rect x="95" y="190" width="47.5" height="47.5" fill="#eadfcb"/>
+        <rect x="142.5" y="190" width="47.5" height="47.5" fill="#7d8faa"/>
+        <rect x="190" y="190" width="47.5" height="47.5" fill="#eadfcb"/>
+        <rect x="237.5" y="190" width="47.5" height="47.5" fill="#7d8faa"/>
+        <rect x="285" y="190" width="47.5" height="47.5" fill="#eadfcb"/>
+        <rect x="332.5" y="190" width="47.5" height="47.5" fill="#7d8faa"/>
+
+        <rect x="0" y="237.5" width="47.5" height="47.5" fill="#7d8faa"/>
+        <rect x="47.5" y="237.5" width="47.5" height="47.5" fill="#eadfcb"/>
+        <rect x="95" y="237.5" width="47.5" height="47.5" fill="#7d8faa"/>
+        <rect x="142.5" y="237.5" width="47.5" height="47.5" fill="#eadfcb"/>
+        <rect x="190" y="237.5" width="47.5" height="47.5" fill="#7d8faa"/>
+        <rect x="237.5" y="237.5" width="47.5" height="47.5" fill="#eadfcb"/>
+        <rect x="285" y="237.5" width="47.5" height="47.5" fill="#7d8faa"/>
+        <rect x="332.5" y="237.5" width="47.5" height="47.5" fill="#eadfcb"/>
+
+        <rect x="0" y="285" width="47.5" height="47.5" fill="#eadfcb"/>
+        <rect x="47.5" y="285" width="47.5" height="47.5" fill="#7d8faa"/>
+        <rect x="95" y="285" width="47.5" height="47.5" fill="#eadfcb"/>
+        <rect x="142.5" y="285" width="47.5" height="47.5" fill="#7d8faa"/>
+        <rect x="190" y="285" width="47.5" height="47.5" fill="#eadfcb"/>
+        <rect x="237.5" y="285" width="47.5" height="47.5" fill="#7d8faa"/>
+        <rect x="285" y="285" width="47.5" height="47.5" fill="#eadfcb"/>
+        <rect x="332.5" y="285" width="47.5" height="47.5" fill="#7d8faa"/>
+
+        <rect x="0" y="332.5" width="47.5" height="47.5" fill="#7d8faa"/>
+        <rect x="47.5" y="332.5" width="47.5" height="47.5" fill="#eadfcb"/>
+        <rect x="95" y="332.5" width="47.5" height="47.5" fill="#7d8faa"/>
+        <rect x="142.5" y="332.5" width="47.5" height="47.5" fill="#eadfcb"/>
+        <rect x="190" y="332.5" width="47.5" height="47.5" fill="#7d8faa"/>
+        <rect x="237.5" y="332.5" width="47.5" height="47.5" fill="#eadfcb"/>
+        <rect x="285" y="332.5" width="47.5" height="47.5" fill="#7d8faa"/>
+        <rect x="332.5" y="332.5" width="47.5" height="47.5" fill="#eadfcb"/>
+      </g>
+      <text x="36" y="70" font-size="34" fill="#16120f">♜</text>
+      <text x="90" y="70" font-size="34" fill="#16120f">♞</text>
+      <text x="142" y="70" font-size="34" fill="#16120f">♝</text>
+      <text x="195" y="70" font-size="34" fill="#16120f">♛</text>
+      <text x="249" y="70" font-size="34" fill="#16120f">♚</text>
+      <text x="300" y="70" font-size="34" fill="#16120f">♝</text>
+      <text x="352" y="70" font-size="34" fill="#16120f">♞</text>
+      <text x="30" y="352" font-size="34" fill="#fffdfa" stroke="#2a211b" stroke-width="0.8">♖</text>
+      <text x="83" y="352" font-size="34" fill="#fffdfa" stroke="#2a211b" stroke-width="0.8">♘</text>
+      <text x="137" y="352" font-size="34" fill="#fffdfa" stroke="#2a211b" stroke-width="0.8">♗</text>
+      <text x="190" y="352" font-size="34" fill="#fffdfa" stroke="#2a211b" stroke-width="0.8">♕</text>
+      <text x="244" y="352" font-size="34" fill="#fffdfa" stroke="#2a211b" stroke-width="0.8">♔</text>
+      <text x="297" y="352" font-size="34" fill="#fffdfa" stroke="#2a211b" stroke-width="0.8">♗</text>
+      <text x="350" y="352" font-size="34" fill="#fffdfa" stroke="#2a211b" stroke-width="0.8">♘</text>
+    </g>
+  </g>
+
+  <g transform="translate(570 122)">
+    <text x="0" y="0" fill="#8ca0c2" font-size="26" font-family="Avenir Next, Helvetica Neue, sans-serif" letter-spacing="4">
+      SHAREABLE BROWSER CHESS
+    </text>
+    <text x="0" y="94" fill="#ffffff" font-size="78" font-family="Baskerville, Georgia, serif">
+      Mac Chess Bot
+    </text>
+    <text x="0" y="166" fill="#d4def0" font-size="30" font-family="Avenir Next, Helvetica Neue, sans-serif">
+      Clean board. Built-in bot. Easy GitHub Pages link.
+    </text>
+    <rect x="0" y="216" width="416" height="64" rx="32" fill="#101725" stroke="#63d2a1" stroke-opacity="0.35"/>
+    <text x="28" y="257" fill="#cfe7da" font-size="24" font-family="Menlo, monospace">
+      yourusername.github.io/cpp-chess-bot
+    </text>
+  </g>
+</svg>

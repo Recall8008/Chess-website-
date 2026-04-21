@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mac Chess Bot</title>
+    <meta
+        name="description"
+        content="A clean browser chess game with a built-in bot. Upload it to GitHub Pages and send the link to a friend."
+    >
+    <meta property="og:title" content="Mac Chess Bot">
+    <meta
+        property="og:description"
+        content="Play chess in the browser against a built-in bot. Designed to be easy to deploy and share."
+    >
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="cover.svg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Mac Chess Bot">
+    <meta
+        name="twitter:description"
+        content="A browser chess game with a cleaner board, bot opponent, and easy GitHub Pages sharing."
+    >
+    <meta name="twitter:image" content="cover.svg">
+    <link rel="icon" href="cover.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="page-shell">
+        <header class="hero">
+            <div class="hero-copy-block">
+                <p class="eyebrow">Shareable Browser Chess</p>
+                <h1>Mac Chess Bot</h1>
+                <p class="hero-copy">
+                    A cleaner chess website with a real board, click-to-move play, and a built-in bot.
+                    Push it to GitHub Pages and send one link to your friend.
+                </p>
+                <div class="hero-pills">
+                    <span class="hero-pill">Real board UI</span>
+                    <span class="hero-pill">Works on MacBook</span>
+                    <span class="hero-pill">Ready for GitHub Pages</span>
+                </div>
+            </div>
+
+            <section class="card share-card">
+                <p class="section-label">Share This Game</p>
+                <h2>Public Link</h2>
+                <div class="share-row">
+                    <input id="share-url" class="share-input" type="text" readonly>
+                    <button id="copy-link" class="primary-button" type="button">Copy Link</button>
+                </div>
+                <p id="share-hint" class="subtle">
+                    When you deploy this on GitHub Pages, the live link will appear here.
+                </p>
+            </section>
+        </header>
+
+        <main class="layout">
+            <section class="card board-card">
+                <div class="board-header">
+                    <div class="status-block">
+                        <p id="status-line" class="status-line">White to move.</p>
+                        <p id="message-line" class="message-line">Click a white piece, then click a highlighted square.</p>
+                    </div>
+
+                    <div class="toolbar">
+                        <label class="control-group" for="difficulty">
+                            <span>Bot Strength</span>
+                            <select id="difficulty">
+                                <option value="1">Easy</option>
+                                <option value="2" selected>Normal</option>
+                                <option value="3">Hard</option>
+                            </select>
+                        </label>
+
+                        <div class="button-row">
+                            <button id="new-game" type="button">New Game</button>
+                            <button id="flip-board" type="button">Flip Board</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="board-frame">
+                    <div id="board" class="board" aria-label="Interactive chess board"></div>
+                </div>
+            </section>
+
+            <aside class="sidebar">
+                <section class="card info-card">
+                    <p class="section-label">Send It Fast</p>
+                    <h2>How to share it</h2>
+                    <p>
+                        Push this repo to GitHub, enable GitHub Pages, then send the website URL.
+                        The project now includes a Pages deploy workflow.
+                    </p>
+                    <code class="inline-code">https://YOUR_USERNAME.github.io/cpp-chess-bot/</code>
+                </section>
+
+                <section class="card info-card">
+                    <p class="section-label">Game Rules</p>
+                    <h2>Included</h2>
+                    <div class="feature-list">
+                        <span>Legal move validation</span>
+                        <span>Check and checkmate</span>
+                        <span>Castling</span>
+                        <span>Auto-queen promotion</span>
+                    </div>
+                    <p class="subtle"><code>En passant</code> is still not implemented.</p>
+                </section>
+
+                <section class="card history-card">
+                    <p class="section-label">Live Match</p>
+                    <h2>Move Log</h2>
+                    <ol id="move-list" class="move-list"></ol>
+                </section>
+            </aside>
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
